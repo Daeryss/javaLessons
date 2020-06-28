@@ -1,0 +1,3 @@
+hello Java!
+123
+this is number 23

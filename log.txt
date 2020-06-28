@@ -1,0 +1,28 @@
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+import
+File name:
+capitals.txt
+6 cards have been loaded.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+ask
+How many times to ask?
+5
+Print the definition of "great britan":
+moscow
+Wrong answer. The correct one is "london", you've just written the definition of "russia".
+Print the definition of "russia":
+log
+Wrong answer. The correct one is "moscow".
+Print the definition of "japan":
+dd
+Wrong answer. The correct one is "tokyo".
+Print the definition of "germany":
+berlin
+Correct answer.
+Print the definition of "france":
+paris
+Correct answer.
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+log
+File name:
+log.txt

@@ -1,0 +1,7 @@
+korea seoul
+russia moscow
+japan tokyo
+germany berlin
+ukraine kiev
+france paris
+italy rome
