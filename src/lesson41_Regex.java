@@ -121,6 +121,8 @@ public class lesson41_Regex {
         "11".matches(regex);   // true
         "111".matches(regex);  // true
         "1111".matches(regex); // false
+        StringBuilder str = new StringBuilder();
+
 
     }
 }

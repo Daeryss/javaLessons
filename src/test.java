@@ -1,44 +1,31 @@
-import javax.swing.text.Document;
-import javax.swing.text.html.HTML;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.sql.Array;
-import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Random;
 import java.util.Scanner;
+import java.util.Set;
 
 public class test {
     public static void main(String[] args) {
-        MagicNumber[] numbers = new MagicNumber[8];
+        Scanner scanner = new Scanner(System.in);
+        /*int k = scanner.nextInt();
+        int n = scanner.nextInt();
+        double m = Double.parseDouble(scanner.nextLine());*/
+        //String str = scanner.nextLine();
+        int[] nums = {1, 3, 4, 5};
 
-        for (int i = 0; i < numbers.length; i++) {
-            MagicNumber magicNumber = new MagicNumber(i);
-            magicNumber.show();
-        }
-    }
-}
+        for (int i = 0; i <= 3; i++) { System.out.print(nums[0]); }
+        System.out.println();
 
-class MagicNumber {
+        for (int i = 1; i <= 3; i++) { System.out.print(nums[i]); }
+        System.out.println();
 
-    private final static int[] NUMBERS;
-    private static int next = 0;
+        for (int i = 0; i <= 3; i++) { System.out.print(nums[i]); }
+        System.out.println();
 
-    private int number;
+        for (int i = 0; i < nums.length; i++) { System.out.print(nums[i]); }
+        System.out.println();
 
-    static {
-        NUMBERS = new int[] { 1, 3, 7, 15, 31, 63 };
-    }
+        for (int i = nums.length - 1; i >= 0; i--) { System.out.println(nums[i]); }
 
-    {
-        this.number = NUMBERS[next % NUMBERS.length];
-        next++;
-    }
 
-    public MagicNumber(int base) {
-        this.number += base;
-    }
-
-    public void show (){
-        System.out.print(number + " ");
     }
 }
