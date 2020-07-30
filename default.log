@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-07-30T13:11:20.874783500Z</date>
+  <millis>1596114680874</millis>
+  <nanos>783500</nanos>
+  <sequence>1</sequence>
+  <logger>lesson45_logging</logger>
+  <level>INFO</level>
+  <class>lesson45_logging</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info log message</message>
+</record>
+</log>
