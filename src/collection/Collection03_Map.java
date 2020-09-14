@@ -1,4 +1,4 @@
-// Map - пердставляет собой набор пар ключ-значение.
+package collection;// Map - пердставляет собой набор пар ключ-значение.
 // Ключи всегда уникальны, а значения могут повторяться
 // ключи аналогичны индексам массива, могут иметь любой тип
 // также существуют изменияемы и неизменяемые карты
@@ -88,6 +88,7 @@ public class lesson34_Map {
         synonyms.put("Do", Set.of("Execute"));
         synonyms.put("Make", Set.of("Set", "Attach"));
         synonyms.put("Keep", Set.of("Hold", "Calm"));
+
         System.out.println(synonyms); // {Keep=[Hold, Calm], Make=[Set, Attach], Do=[Execute]}
 
         // равенство карт
