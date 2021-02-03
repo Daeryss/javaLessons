@@ -1,4 +1,6 @@
-package collection;// Map - пердставляет собой набор пар ключ-значение.
+package collection;
+
+// Map - пердставляет собой набор пар ключ-значение.
 // Ключи всегда уникальны, а значения могут повторяться
 // ключи аналогичны индексам массива, могут иметь любой тип
 // также существуют изменияемы и неизменяемые карты
@@ -8,7 +10,7 @@ import org.w3c.dom.ls.LSOutput;
 import java.time.LocalDate;
 import java.util.*;
 
-public class lesson34_Map {
+class lesson34_Map {
     public static void main(String[] args) {
         // immutable map (неизменяемые)
         Map<String, String> emptyMap = Map.of();

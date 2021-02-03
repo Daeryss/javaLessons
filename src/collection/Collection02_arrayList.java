@@ -1,3 +1,4 @@
+package collection;
 /*
 коллекции - те же массивы, но с большим функционалом.
 Мы можем расширять коллекции до неопределенного размера, в отличии от массива
@@ -10,7 +11,7 @@ ArrayList<int> list - нельзя
 
 import java.util.ArrayList;
 
-public class lesson31_arrayList {
+class lesson31_arrayList {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>(); // создали коллекцию
 

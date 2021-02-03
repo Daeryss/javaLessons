@@ -1,7 +1,9 @@
+package time;
+
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class lesson50_LocalTime {
+class lesson50_LocalTime {
     public static void main(String[] args) {
         LocalTime time = LocalTime.now(); // current time
         System.out.println(time);

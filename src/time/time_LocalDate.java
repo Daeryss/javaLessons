@@ -1,10 +1,12 @@
+package time;
+
 //The class LocalDate represents a single date
 // in a YYYY-MM-dd format, such as 2017-11-25 or 2025-01-23 .
 
 
 import java.time.LocalDate;
 
-public class lesson49_LocalDate {
+class lesson49_LocalDate {
     public static void main(String[] args) {
         LocalDate date = LocalDate.now(); // current date
         System.out.println(date);

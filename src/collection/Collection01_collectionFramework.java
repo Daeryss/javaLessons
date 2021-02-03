@@ -1,3 +1,4 @@
+package collection;
 /*
 операции над коллекциями в ява включают в себя ряд методов и интерфейсов
 основной является Collection Framework в java.util
@@ -12,7 +13,7 @@ Map<K, V> - представляет собой карту или словарь
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class lesson32_collectionFramework {
+class lesson32_collectionFramework {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
