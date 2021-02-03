@@ -1,0 +1,21 @@
+SQL - structure query language
+can consist next values of column:
+Integer - numeric from -2147483648 to +2147483647,
+Real - numeric from 1e-37 to 1e+37,
+Decimal - numeric up to 131072 digits before the decimal point and up to 16383 digits after the decimal point,
+Varchar - text values VARCHAR(n),
+Boolean - true/false,
+Date  - YYYY-MM-DD
+DATETIME - YYYY-MM-DD HH:MM:SS
+TIMESTAMP - automatically add time
+
+example:
+CREATE TABLE Census (
+    id INTEGER,
+    name VARCHAR(20),
+    birth_place_latitude REAL,
+    year_income DECIMAL(20,3),
+    is_parent BOOLEAN,
+    born DATE,
+    current_time TIMESTAMP
+);
