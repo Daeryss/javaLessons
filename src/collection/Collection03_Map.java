@@ -10,7 +10,7 @@ import org.w3c.dom.ls.LSOutput;
 import java.time.LocalDate;
 import java.util.*;
 
-class lesson34_Map {
+class Collection03_Map {
     public static void main(String[] args) {
         // immutable map (неизменяемые)
         Map<String, String> emptyMap = Map.of();

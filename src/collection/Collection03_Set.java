@@ -5,7 +5,7 @@ package collection;/*
 
 import java.util.*;
 
-class lesson33_Set {
+class Collection03_Set {
     public static void main(String[] args) {
         // Set.of - самый простой способ создать << неизменяемый (immutable)>> набор
         Set<String> emptySet = Set.of();

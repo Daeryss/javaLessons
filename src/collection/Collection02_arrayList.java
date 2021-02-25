@@ -11,7 +11,7 @@ ArrayList<int> list - нельзя
 
 import java.util.ArrayList;
 
-class lesson31_arrayList {
+class Collection02_arrayList {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>(); // создали коллекцию
 
