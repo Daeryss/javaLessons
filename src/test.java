@@ -1,20 +1,16 @@
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-        System.out.println(fourLetters("hello this world"));
-    }
-
-    public static int fourLetters(String sentence) {
-        // Напишите ваш код здесь...
-        int count = 0;
-        String[] str = sentence.split(" ");
-        for (String s : str) {
-            if (s.length() == 4) {
-                count++;
-            }
+        double count = 10000;
+        for(int i = 0; i < 12; i++) {
+            count += count * 0.1 + 3000;
+            System.out.printf("%d mounth %.2f\n", i, count);
         }
-        return count;
+
     }
 }
