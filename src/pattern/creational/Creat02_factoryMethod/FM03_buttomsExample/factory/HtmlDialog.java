@@ -1,7 +1,7 @@
-package pattern.creational.Creat02_factoryMethod.buttomsExample.factory;
+package pattern.creational.Creat02_factoryMethod.FM03_buttomsExample.factory;
 
-import pattern.creational.Creat02_factoryMethod.buttomsExample.buttons.Button;
-import pattern.creational.Creat02_factoryMethod.buttomsExample.buttons.HtmlButton;
+import pattern.creational.Creat02_factoryMethod.FM03_buttomsExample.buttons.Button;
+import pattern.creational.Creat02_factoryMethod.FM03_buttomsExample.buttons.HtmlButton;
 
 public class HtmlDialog extends Dialog {
     @Override

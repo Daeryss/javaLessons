@@ -1,4 +1,4 @@
-package pattern.creational.Creat02_factoryMethod.buttomsExample.buttons;
+package pattern.creational.Creat02_factoryMethod.FM03_buttomsExample.buttons;
 
 public class HtmlButton implements Button{
     @Override
