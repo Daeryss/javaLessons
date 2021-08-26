@@ -4,7 +4,6 @@ public class Lada extends AbstractCar{
     protected Lada() {
     }
 
-
     @Override
     public void crash(Object context) {
         System.out.println("Lada was crashed");

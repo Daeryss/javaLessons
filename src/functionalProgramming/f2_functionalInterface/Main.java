@@ -53,5 +53,6 @@ public class Main {
         System.out.println("\nBinaryOperator" + "\n\tT apply (T t, T t);");
         BinaryOperator<Integer> binop = (val1, val2) -> val1 * val2;
         System.out.println(binop.apply(4, 12));
+
     }
 }
