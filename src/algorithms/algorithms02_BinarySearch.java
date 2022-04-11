@@ -1,7 +1,8 @@
 package algorithms;
-/*
+/**
 Given a sorted array arr[] of n elements, write a function to search a given element x in arr[].
-A simple approach is to do linear search.The time complexity of above algorithm is O(n). Another approach to perform the same task is using Binary Search.
+A simple approach is to do linear search.The time complexity of above algorithm is O(n).
+Another approach to perform the same task is using Binary Search.
 
 Binary Search: Search a sorted array by repeatedly dividing
 the search interval in half. Begin with an interval covering
